@@ -27,20 +27,20 @@ const Footer: FC = () => {
       {!isAuthenticated && <ReCaptcha />}
       <Text fontSize={[12, 13]} py={2}>
         Made with love by{" "}
-        <ALink href="//thedevs.network/" title="The Devs" target="_blank">
-          The Devs
+        <ALink href="//romhub.me/" title="romhub.me" target="_blank">
+          romhub.me
         </ALink>
         .{" | "}
         <ALink
-          href="https://github.com/thedevs-network/kutt"
-          title="GitHub"
+          href="https://addrom.com"
+          title="addROM"
           target="_blank"
         >
-          GitHub
+          addROM
         </ALink>
         {" | "}
-        <ALink href="/terms" title="Terms of Service" isNextLink>
-          Terms of Service
+        <ALink href="https://vnrom.net" title="vnROM" isNextLink>
+          vnROM
         </ALink>
         {" | "}
         <ALink href="/report" title="Report abuse" isNextLink>
