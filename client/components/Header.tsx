@@ -130,13 +130,13 @@ const Header: FC = () => {
           >
             <Li>
               <ALink
-                href="//github.com/thedevs-network/kutt"
+                href="/terms"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="GitHub"
+                title="Terms of Service"
                 fontSize={[14, 16]}
               >
-                GitHub
+                Terms of Service
               </ALink>
             </Li>
             <Li>
